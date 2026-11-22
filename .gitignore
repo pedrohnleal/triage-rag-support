@@ -1,0 +1,24 @@
+# Segredos (copie .env.example para .env e preencha a chave localmente)
+.env
+
+# Compilação e IDEs
+app/target/
+*.class
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# Saídas derivadas, regeneradas pelos scripts a partir dos dados versionados
+data/KB_README.md
+results/recomputed/
+results/article/
+output/stats/*-summary.csv
+output/stats/*-window.json
+output/logs/
+output/metrics/requests-*-backup.csv
+
+# Arquivos temporários do sistema/Office
+~$*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: suporte-rag
+  ai:
+    retry:
+      max-attempts: 1 # sem retentativas, para que erros 429 apareçam no resultado
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: ${LLM_MODEL:gpt-4o-mini-2024-07-18}
+          temperature: 0.0
+          seed: 42
+          max-tokens: 600
+      embedding:
+        options:
+          model: text-embedding-3-small
+    vectorstore:
+      qdrant:
+        host: ${QDRANT_HOST:localhost}
+        port: 6334
+        collection-name: kb_suporte
+        initialize-schema: true
+
+app:
+  triage:
+    confidence-threshold: 0.70 # limiar de C3
+  retrieval:
+    top-k: 5
+  kb:
+    path: ${APP_KB_PATH:./data/kb}
+    chunk-size: 512
+  metrics:
+    csv-path: ${APP_METRICS_CSV_PATH:./output/metrics/requests.csv}

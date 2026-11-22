@@ -1,0 +1,6 @@
+# Python 3.9+ (o experimento usou 3.12.10).
+# populate_kb.py, build_tickets.py, verify_index.py e run_quality_eval.py usam apenas a biblioteca padrão.
+# Dependências abaixo: somente para scripts/generate_article_assets.py (tabelas e figuras).
+pandas
+numpy
+matplotlib

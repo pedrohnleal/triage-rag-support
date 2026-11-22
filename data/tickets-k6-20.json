@@ -1,0 +1,122 @@
+[
+  {
+    "ticketId": "T093",
+    "question": "Estou com erro de CORS ao chamar do navegador a API Spring Boot do backend. Dá para resolver no próprio Next.js?",
+    "expectedCategory": "nextjs",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T036",
+    "question": "Como configuro o Spring Security como OAuth2 Resource Server para validar tokens JWT?",
+    "expectedCategory": "spring-boot",
+    "hasAnswer": false
+  },
+  {
+    "ticketId": "T011",
+    "question": "Quais limites de memória e CPU devo configurar por contêiner na Nimbus? Meu serviço Spring Boot usa bastante heap.",
+    "expectedCategory": "docker",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T047",
+    "question": "A Nimbus permite usar tabelas temporais (system-versioned) em bancos de produção?",
+    "expectedCategory": "sql-server",
+    "hasAnswer": false
+  },
+  {
+    "ticketId": "T020",
+    "question": "Posso criar o App Service do meu projeto na região West Europe?",
+    "expectedCategory": "azure",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T027",
+    "question": "Chamei a API de pedidos e voltou HTTP 400 com o código NIM-4001. Que erro é esse?",
+    "expectedCategory": "spring-boot",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T075",
+    "question": "O pipeline barrou meu build com o código NIM-FE-03 quando rodei npm install.",
+    "expectedCategory": "nextjs",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T033",
+    "question": "Como configuro o Azure Front Door com WAF para proteger um App Service?",
+    "expectedCategory": "azure",
+    "hasAnswer": false
+  },
+  {
+    "ticketId": "T095",
+    "question": "Qual é o processo da Nimbus para solicitar exceção à regra de executar contêineres como usuário não root?",
+    "expectedCategory": "docker",
+    "hasAnswer": false
+  },
+  {
+    "ticketId": "T094",
+    "question": "Minhas consultas de leitura ficam travadas esperando um UPDATE longo de outra sessão. Como evito isso sem usar NOLOCK?",
+    "expectedCategory": "sql-server",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T084",
+    "question": "Mudei uma configuração do meu App Service que roda um app Spring Boot e ele reiniciou sozinho. Isso é normal?",
+    "expectedCategory": "azure",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T082",
+    "question": "Rodei docker compose down -v para limpar o ambiente e perdi todos os dados do banco de teste. Por que isso aconteceu?",
+    "expectedCategory": "docker",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T016",
+    "question": "Qual configuração de crescimento do arquivo de log devo usar nos bancos da Nimbus?",
+    "expectedCategory": "sql-server",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T065",
+    "question": "Criei app/dashboard/page.tsx, mas já existe pages/dashboard.tsx e o build reclama de conflito.",
+    "expectedCategory": "nextjs",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T022",
+    "question": "Posso usar o usuário sa na connection string da minha API Next.js em homologação?",
+    "expectedCategory": "sql-server",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T059",
+    "question": "Posso fazer deploy do serviço em produção na segunda-feira de manhã?",
+    "expectedCategory": "spring-boot",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T025",
+    "question": "Qual é a política da Nimbus para uso de bibliotecas de componentes de interface (design system)?",
+    "expectedCategory": "nextjs",
+    "hasAnswer": false
+  },
+  {
+    "ticketId": "T060",
+    "question": "Preciso persistir os dados do contêiner em homologação. Posso usar um bind mount de uma pasta do servidor?",
+    "expectedCategory": "docker",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T063",
+    "question": "Um recurso que criei no Azure foi desligado sozinho três dias depois. Por quê?",
+    "expectedCategory": "azure",
+    "hasAnswer": true
+  },
+  {
+    "ticketId": "T070",
+    "question": "Quando dou docker stop no contêiner da minha API Spring Boot, as requisições em andamento são cortadas. Como o Spring Boot pode esperá-las terminar?",
+    "expectedCategory": "spring-boot",
+    "hasAnswer": true
+  }
+]

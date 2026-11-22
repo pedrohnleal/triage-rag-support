@@ -1,0 +1,42 @@
+[
+  {
+    "question": "O meu @RestController retorna 404 para uma rota que declarei com @GetMapping.",
+    "category": "spring-boot"
+  },
+  {
+    "question": "Como executo apenas os testes de integração do projeto com o Maven?",
+    "category": "spring-boot"
+  },
+  {
+    "question": "O docker run diz que o nome do contêiner já está em uso. Como resolvo?",
+    "category": "docker"
+  },
+  {
+    "question": "Como listo as imagens locais que mais ocupam espaço em disco?",
+    "category": "docker"
+  },
+  {
+    "question": "Como vejo o custo acumulado do mês corrente por grupo de recursos?",
+    "category": "azure"
+  },
+  {
+    "question": "O az login abre o navegador, mas a CLI continua dizendo que não estou autenticado.",
+    "category": "azure"
+  },
+  {
+    "question": "Como descubro a versão exata do SQL Server instalada na instância?",
+    "category": "sql-server"
+  },
+  {
+    "question": "Como altero o tipo de uma coluna de INT para BIGINT em uma tabela com muitos registros?",
+    "category": "sql-server"
+  },
+  {
+    "question": "A navegação entre páginas recarrega o site inteiro em vez de ser instantânea.",
+    "category": "nextjs"
+  },
+  {
+    "question": "Como adiciono uma fonte do Google ao projeto Next.js sem prejudicar o carregamento?",
+    "category": "nextjs"
+  }
+]

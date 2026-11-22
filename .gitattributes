@@ -1,0 +1,5 @@
+# Preserva os bytes exatamente como foram executados no experimento.
+# Sem conversão de fim de linha, os resumos SHA-256 dos prompts (Tabela 2 do artigo)
+# e dos documentos da base (data/kb-manifest.json) continuam conferindo em qualquer sistema.
+* -text
+*.png binary

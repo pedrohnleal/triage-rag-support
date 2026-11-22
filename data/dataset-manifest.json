@@ -1,0 +1,44 @@
+{
+  "seed": 20261016,
+  "totals": {
+    "tickets": 100,
+    "with_answer": 80,
+    "without_answer": 20,
+    "ambiguous": 22,
+    "k6_subset": 20,
+    "k6_without_answer": 5
+  },
+  "answerable_by_category": {
+    "spring-boot": 16,
+    "docker": 16,
+    "azure": 16,
+    "sql-server": 16,
+    "nextjs": 16
+  },
+  "unanswerable_by_category": {
+    "spring-boot": 4,
+    "docker": 4,
+    "azure": 4,
+    "sql-server": 4,
+    "nextjs": 4
+  },
+  "answerable_by_source_type": {
+    "nota-tecnica": 40,
+    "runbook-simulado": 40
+  },
+  "ambiguous_by_category": {
+    "spring-boot": 4,
+    "docker": 5,
+    "azure": 5,
+    "sql-server": 4,
+    "nextjs": 4
+  },
+  "priority": {
+    "média": 44,
+    "alta": 28,
+    "baixa": 28
+  },
+  "validations": "todas aprovadas",
+  "warnings": [],
+  "status": "gerado e validado por script"
+}

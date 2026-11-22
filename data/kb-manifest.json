@@ -1,0 +1,731 @@
+{
+  "documents": [
+    {
+      "path": "spring-boot/01-spring-configuracao-e-perfis.md",
+      "category": "spring-boot",
+      "title": "Spring Boot: configuração e perfis",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SB-T01",
+          "title": "Ativação de perfis no Spring Boot"
+        },
+        {
+          "id": "SB-T02",
+          "title": "Variáveis de ambiente e vinculação relaxada no Spring Boot"
+        },
+        {
+          "id": "SB-T03",
+          "title": "Porta do servidor no Spring Boot"
+        }
+      ],
+      "words": 168,
+      "sha256": "ceb0b5f17da5c419fd9e3058ac474c07688f6421786c295cd06ebfd509411f6b",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "spring-boot/02-spring-actuator-e-logs.md",
+      "category": "spring-boot",
+      "title": "Spring Boot: Actuator e logs",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SB-T04",
+          "title": "Exposição de endpoints do Spring Boot Actuator"
+        },
+        {
+          "id": "SB-T05",
+          "title": "Porta de gerenciamento separada no Spring Boot"
+        },
+        {
+          "id": "SB-T06",
+          "title": "Níveis de log no Spring Boot"
+        }
+      ],
+      "words": 137,
+      "sha256": "6e97e678be7ef2af7f7f816780a84af51ee78182c6fb0f77ecf1708155d63a5a",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "spring-boot/03-spring-dados-e-validacao.md",
+      "category": "spring-boot",
+      "title": "Spring Boot: dados, transações e validação",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SB-T07",
+          "title": "Pool de conexões HikariCP no Spring Boot"
+        },
+        {
+          "id": "SB-T08",
+          "title": "Rollback com @Transactional no Spring"
+        },
+        {
+          "id": "SB-T09",
+          "title": "Validação de entrada no Spring Boot"
+        }
+      ],
+      "words": 173,
+      "sha256": "aed51fa143131eb99718d0d903d05a8f74cad1856cd3c5723f39b350eb9e5fe8",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "spring-boot/04-spring-ciclo-de-vida-e-empacotamento.md",
+      "category": "spring-boot",
+      "title": "Spring Boot: ciclo de vida e empacotamento",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SB-T10",
+          "title": "Encerramento gracioso no Spring Boot"
+        },
+        {
+          "id": "SB-T11",
+          "title": "Dependência circular entre beans no Spring Boot"
+        },
+        {
+          "id": "SB-T12",
+          "title": "Geração de imagem de contêiner pelo plugin do Spring Boot"
+        }
+      ],
+      "words": 142,
+      "sha256": "da15270de9dcc46747f73f1cafaf6cea8900a3c24e5c6a594b8ad3cef232c160",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "spring-boot/05-runbook-nimbus-spring-boot.md",
+      "category": "spring-boot",
+      "title": "Runbook Nimbus: serviços Spring Boot",
+      "type": "runbook-simulado",
+      "sections": [
+        {
+          "id": "SB-R01",
+          "title": "Endpoint de saúde corporativo dos serviços Spring Boot"
+        },
+        {
+          "id": "SB-R02",
+          "title": "Limite do pool de conexões nos serviços Spring Boot da Nimbus"
+        },
+        {
+          "id": "SB-R03",
+          "title": "Segredos nos serviços Spring Boot da Nimbus"
+        },
+        {
+          "id": "SB-R04",
+          "title": "Padrão de logs dos serviços Spring Boot da Nimbus"
+        },
+        {
+          "id": "SB-R05",
+          "title": "Cabeçalho de tenant obrigatório nas APIs da Nimbus"
+        },
+        {
+          "id": "SB-R06",
+          "title": "Encerramento dos serviços Spring Boot no orquestrador Nimbus"
+        },
+        {
+          "id": "SB-R07",
+          "title": "Tentativas e timeouts de chamadas externas dos serviços Spring Boot"
+        },
+        {
+          "id": "SB-R08",
+          "title": "Nome e tag das imagens dos serviços Spring Boot da Nimbus"
+        },
+        {
+          "id": "SB-R09",
+          "title": "Janela de deploy em produção dos serviços Spring Boot"
+        },
+        {
+          "id": "SB-R10",
+          "title": "Versão de Java dos serviços Spring Boot da Nimbus"
+        }
+      ],
+      "words": 445,
+      "sha256": "8d11bb93653649bd9ab86128e7218aaedfb1096741adb2e8ba2cf412def06b45",
+      "origin": "simulado pelo grupo (regras fictícias)"
+    },
+    {
+      "path": "docker/01-docker-imagens-e-dockerfile.md",
+      "category": "docker",
+      "title": "Docker: imagens e Dockerfile",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "DK-T01",
+          "title": "Build em múltiplos estágios no Docker"
+        },
+        {
+          "id": "DK-T02",
+          "title": "Cache de camadas no Dockerfile"
+        },
+        {
+          "id": "DK-T03",
+          "title": "Arquivo .dockerignore"
+        },
+        {
+          "id": "DK-T04",
+          "title": "ENTRYPOINT, CMD e sinais no Docker"
+        }
+      ],
+      "words": 211,
+      "sha256": "b7e21d042bd27f4d1aa4abab03ffaeebd1d3dd9be92f67bc1f449baedbfe1e52",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "docker/02-docker-rede-e-portas.md",
+      "category": "docker",
+      "title": "Docker: rede e portas",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "DK-T05",
+          "title": "Publicação de portas no Docker"
+        },
+        {
+          "id": "DK-T06",
+          "title": "Comunicação entre contêineres no Docker Compose"
+        },
+        {
+          "id": "DK-T07",
+          "title": "Acesso ao host a partir de um contêiner Docker"
+        }
+      ],
+      "words": 141,
+      "sha256": "0350eb6db08660e007db50d7573e710142225d328ded80313f6b5d526dfc5d40",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "docker/03-docker-dados-e-recursos.md",
+      "category": "docker",
+      "title": "Docker: dados e recursos",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "DK-T08",
+          "title": "Volumes nomeados e bind mounts no Docker"
+        },
+        {
+          "id": "DK-T09",
+          "title": "Limites de memória e código de saída 137 no Docker"
+        },
+        {
+          "id": "DK-T10",
+          "title": "Políticas de reinício no Docker"
+        }
+      ],
+      "words": 156,
+      "sha256": "32c1214714e6d1898e18489137c9a86c3af96e2c9f2befbd90ff79c1c40a3453",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "docker/04-docker-compose-e-saude.md",
+      "category": "docker",
+      "title": "Docker Compose: saúde e variáveis",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "DK-T11",
+          "title": "Healthcheck e depends_on no Docker Compose"
+        },
+        {
+          "id": "DK-T12",
+          "title": "Variáveis de ambiente no Docker Compose"
+        }
+      ],
+      "words": 97,
+      "sha256": "216a39c3b86b5cc9e66a3d8bb5cdd7adca04088aff3b574b346f75ad862eadd1",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "docker/05-runbook-nimbus-docker.md",
+      "category": "docker",
+      "title": "Runbook Nimbus: contêineres Docker",
+      "type": "runbook-simulado",
+      "sections": [
+        {
+          "id": "DK-R01",
+          "title": "Imagens base aprovadas na Nimbus"
+        },
+        {
+          "id": "DK-R02",
+          "title": "Usuário não root nos contêineres da Nimbus"
+        },
+        {
+          "id": "DK-R03",
+          "title": "Limites de recursos padrão dos contêineres da Nimbus"
+        },
+        {
+          "id": "DK-R04",
+          "title": "Labels obrigatórias nas imagens da Nimbus"
+        },
+        {
+          "id": "DK-R05",
+          "title": "Tamanho máximo das imagens da Nimbus"
+        },
+        {
+          "id": "DK-R06",
+          "title": "Healthcheck padrão dos contêineres da Nimbus"
+        },
+        {
+          "id": "DK-R07",
+          "title": "Política de reinício na Nimbus"
+        },
+        {
+          "id": "DK-R08",
+          "title": "Volumes e dados persistentes na Nimbus"
+        },
+        {
+          "id": "DK-R09",
+          "title": "Limpeza automática de imagens do registro Nimbus"
+        },
+        {
+          "id": "DK-R10",
+          "title": "Faixa de portas publicadas na Nimbus"
+        }
+      ],
+      "words": 374,
+      "sha256": "c15675c2d1060d40dada2ef3e4a3e213578371f60253d87b3167694feb8b21a2",
+      "origin": "simulado pelo grupo (regras fictícias)"
+    },
+    {
+      "path": "azure/01-azure-conceitos-basicos.md",
+      "category": "azure",
+      "title": "Azure: conceitos básicos",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "AZ-T01",
+          "title": "Grupos de recursos no Azure"
+        },
+        {
+          "id": "AZ-T02",
+          "title": "Azure CLI: login e assinatura ativa"
+        },
+        {
+          "id": "AZ-T03",
+          "title": "Controle de acesso por função (RBAC) no Azure"
+        }
+      ],
+      "words": 166,
+      "sha256": "d0e730c7edb6904febf5cc8f916d56ea723d70b4334706bc7cc36098ef3def19",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "azure/02-azure-app-service-e-container-apps.md",
+      "category": "azure",
+      "title": "Azure: App Service e Container Apps",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "AZ-T04",
+          "title": "Configurações de aplicativo no Azure App Service"
+        },
+        {
+          "id": "AZ-T05",
+          "title": "Slots de implantação no Azure App Service"
+        },
+        {
+          "id": "AZ-T06",
+          "title": "Escala a zero no Azure Container Apps"
+        }
+      ],
+      "words": 163,
+      "sha256": "d9d48d4dfe9d740bf90c2c225d983875f22d79ceeeff052549af3f4016bd373e",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "azure/03-azure-segredos-e-identidade.md",
+      "category": "azure",
+      "title": "Azure: segredos, identidade e dados",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "AZ-T07",
+          "title": "Identidade gerenciada no Azure"
+        },
+        {
+          "id": "AZ-T08",
+          "title": "Referências ao Key Vault no Azure App Service"
+        },
+        {
+          "id": "AZ-T09",
+          "title": "Firewall do Azure SQL Database"
+        }
+      ],
+      "words": 171,
+      "sha256": "ff87359c4d6f4fec1251bae55f0b625cb3302c7deaaba51d998df80ca8041b74",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "azure/04-azure-operacao-e-custos.md",
+      "category": "azure",
+      "title": "Azure: operação, registro de contêineres e custos",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "AZ-T10",
+          "title": "Application Insights e Azure Monitor"
+        },
+        {
+          "id": "AZ-T11",
+          "title": "Tags e orçamentos no Azure Cost Management"
+        },
+        {
+          "id": "AZ-T12",
+          "title": "Azure Container Registry e autenticação de imagens"
+        }
+      ],
+      "words": 134,
+      "sha256": "3c73777ac8b271f59a974ae86a54acffb64c7859a4de4023d11c041787f4eab1",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "azure/05-runbook-nimbus-azure.md",
+      "category": "azure",
+      "title": "Runbook Nimbus: recursos no Azure",
+      "type": "runbook-simulado",
+      "sections": [
+        {
+          "id": "AZ-R01",
+          "title": "Convenção de nomes de recursos Azure na Nimbus"
+        },
+        {
+          "id": "AZ-R02",
+          "title": "Regiões permitidas no Azure da Nimbus"
+        },
+        {
+          "id": "AZ-R03",
+          "title": "Tags obrigatórias nos recursos Azure da Nimbus"
+        },
+        {
+          "id": "AZ-R04",
+          "title": "Orçamentos dos grupos de recursos de homologação da Nimbus"
+        },
+        {
+          "id": "AZ-R05",
+          "title": "Acesso privilegiado no Azure da Nimbus"
+        },
+        {
+          "id": "AZ-R06",
+          "title": "Rotação de segredos no Key Vault da Nimbus"
+        },
+        {
+          "id": "AZ-R07",
+          "title": "Escala dos Container Apps na Nimbus"
+        },
+        {
+          "id": "AZ-R08",
+          "title": "Slots de implantação obrigatórios no App Service da Nimbus"
+        },
+        {
+          "id": "AZ-R09",
+          "title": "Acesso ao Azure SQL na Nimbus"
+        },
+        {
+          "id": "AZ-R10",
+          "title": "Telemetria no Application Insights da Nimbus"
+        }
+      ],
+      "words": 398,
+      "sha256": "2a81dcc9e336b04b1bd5351377e4fcf226c8079e963eae622ffa3cd02892079c",
+      "origin": "simulado pelo grupo (regras fictícias)"
+    },
+    {
+      "path": "sql-server/01-sqlserver-instalacao-e-acesso.md",
+      "category": "sql-server",
+      "title": "SQL Server: instalação e acesso",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SQ-T01",
+          "title": "SQL Server em contêiner Docker"
+        },
+        {
+          "id": "SQ-T02",
+          "title": "Logins, usuários e usuários órfãos no SQL Server"
+        },
+        {
+          "id": "SQ-T03",
+          "title": "Collation no SQL Server"
+        }
+      ],
+      "words": 161,
+      "sha256": "0fed4f54d1f66502d5e4b5af0bf2e653449589c1c66fc71a0ae97a0dc1f0e2fb",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "sql-server/02-sqlserver-consultas-e-indices.md",
+      "category": "sql-server",
+      "title": "SQL Server: consultas e índices",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SQ-T04",
+          "title": "Paginação com OFFSET e FETCH no SQL Server"
+        },
+        {
+          "id": "SQ-T05",
+          "title": "Índices clusterizados e não clusterizados no SQL Server"
+        },
+        {
+          "id": "SQ-T06",
+          "title": "Plano de execução e estatísticas no SQL Server"
+        },
+        {
+          "id": "SQ-T07",
+          "title": "Parameter sniffing no SQL Server"
+        }
+      ],
+      "words": 205,
+      "sha256": "c50973b9c94f6b560fcd271e14e607d2ca7b173b3fdbf03758b38d52695f90bc",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "sql-server/03-sqlserver-transacoes-e-bloqueios.md",
+      "category": "sql-server",
+      "title": "SQL Server: transações e bloqueios",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SQ-T08",
+          "title": "Níveis de isolamento e READ_COMMITTED_SNAPSHOT no SQL Server"
+        },
+        {
+          "id": "SQ-T09",
+          "title": "Deadlock no SQL Server"
+        },
+        {
+          "id": "SQ-T10",
+          "title": "Investigação de bloqueios no SQL Server"
+        }
+      ],
+      "words": 137,
+      "sha256": "0a23af10057b0b4671a13379696c630b6d1f3eb604ac9fa7aff71372d909c238",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "sql-server/04-sqlserver-backup-e-log.md",
+      "category": "sql-server",
+      "title": "SQL Server: backup e log de transações",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "SQ-T11",
+          "title": "Modelos de recuperação e log cheio no SQL Server"
+        },
+        {
+          "id": "SQ-T12",
+          "title": "Backup e restauração no SQL Server"
+        }
+      ],
+      "words": 110,
+      "sha256": "e8fb4e9c36a12ba159014af7927a17b730b855584482ffd9aab7ed1586e6542b",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "sql-server/05-runbook-nimbus-sql-server.md",
+      "category": "sql-server",
+      "title": "Runbook Nimbus: bancos SQL Server",
+      "type": "runbook-simulado",
+      "sections": [
+        {
+          "id": "SQ-R01",
+          "title": "Padrão de nomes de bancos SQL Server na Nimbus"
+        },
+        {
+          "id": "SQ-R02",
+          "title": "Collation padrão dos bancos da Nimbus"
+        },
+        {
+          "id": "SQ-R03",
+          "title": "Contas de aplicação nos bancos da Nimbus"
+        },
+        {
+          "id": "SQ-R04",
+          "title": "Isolamento obrigatório nos bancos transacionais da Nimbus"
+        },
+        {
+          "id": "SQ-R05",
+          "title": "Política de backup dos bancos de produção da Nimbus"
+        },
+        {
+          "id": "SQ-R06",
+          "title": "Timeouts de comando nos bancos da Nimbus"
+        },
+        {
+          "id": "SQ-R07",
+          "title": "Repetição de transações vítimas de deadlock na Nimbus"
+        },
+        {
+          "id": "SQ-R08",
+          "title": "Crescimento do arquivo de log nos bancos da Nimbus"
+        },
+        {
+          "id": "SQ-R09",
+          "title": "Dados de produção em ambientes de desenvolvimento na Nimbus"
+        },
+        {
+          "id": "SQ-R10",
+          "title": "Manutenção de índices nos bancos da Nimbus"
+        }
+      ],
+      "words": 373,
+      "sha256": "c8ab49eea0313d111100c1aa8d488f7da8b889eb20ff51268483638741fb05d2",
+      "origin": "simulado pelo grupo (regras fictícias)"
+    },
+    {
+      "path": "nextjs/01-nextjs-roteamento-e-componentes.md",
+      "category": "nextjs",
+      "title": "Next.js: roteamento e componentes",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "NX-T01",
+          "title": "App Router e Pages Router no Next.js"
+        },
+        {
+          "id": "NX-T02",
+          "title": "Server Components e Client Components no Next.js"
+        },
+        {
+          "id": "NX-T03",
+          "title": "Rotas dinâmicas no Next.js"
+        }
+      ],
+      "words": 141,
+      "sha256": "5c6a1ded399ca6102f07f9e1bb565f8685d13b973ac148a4af9972cb4b3e116f",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "nextjs/02-nextjs-dados-e-ambiente.md",
+      "category": "nextjs",
+      "title": "Next.js: dados e ambiente",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "NX-T04",
+          "title": "Variáveis de ambiente públicas no Next.js"
+        },
+        {
+          "id": "NX-T05",
+          "title": "Route Handlers no Next.js"
+        },
+        {
+          "id": "NX-T06",
+          "title": "Cache de fetch no Next.js"
+        }
+      ],
+      "words": 139,
+      "sha256": "551eb8b3e01145937e73f7a42d714f50448636519f2a1e0b9672c8f65d299e81",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "nextjs/03-nextjs-imagens-e-erros.md",
+      "category": "nextjs",
+      "title": "Next.js: imagens, erros e proxy",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "NX-T07",
+          "title": "Imagens remotas com next/image no Next.js"
+        },
+        {
+          "id": "NX-T08",
+          "title": "Erros de hidratação no Next.js"
+        },
+        {
+          "id": "NX-T09",
+          "title": "Rewrites no Next.js para evitar CORS"
+        }
+      ],
+      "words": 127,
+      "sha256": "f60ff941b89488a5f14cb1341dbbd292dce6b816598f7dd9019359c4f78e3155",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "nextjs/04-nextjs-build-e-implantacao.md",
+      "category": "nextjs",
+      "title": "Next.js: build e implantação",
+      "type": "nota-tecnica",
+      "sections": [
+        {
+          "id": "NX-T10",
+          "title": "Comandos next dev, next build e next start"
+        },
+        {
+          "id": "NX-T11",
+          "title": "Saída standalone do Next.js"
+        },
+        {
+          "id": "NX-T12",
+          "title": "Porta do Next.js"
+        }
+      ],
+      "words": 114,
+      "sha256": "ab449add5e8cbf75bafa1a74b5b9be718ac5a467cb61f1e1c67512aa7bb8a8c5",
+      "origin": "autoria própria (síntese técnica)"
+    },
+    {
+      "path": "nextjs/05-runbook-nimbus-nextjs.md",
+      "category": "nextjs",
+      "title": "Runbook Nimbus: aplicações Next.js",
+      "type": "runbook-simulado",
+      "sections": [
+        {
+          "id": "NX-R01",
+          "title": "Node e gerenciador de pacotes das aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R02",
+          "title": "Variáveis públicas nas aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R03",
+          "title": "Base path das aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R04",
+          "title": "Chamadas a APIs nas aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R05",
+          "title": "Estratégia de cache nas aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R06",
+          "title": "Domínios de imagens autorizados nas aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R07",
+          "title": "Empacotamento em contêiner das aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R08",
+          "title": "Limite de bundle das aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R09",
+          "title": "Internacionalização nas aplicações Next.js da Nimbus"
+        },
+        {
+          "id": "NX-R10",
+          "title": "Cobertura mínima de testes nas aplicações Next.js da Nimbus"
+        }
+      ],
+      "words": 330,
+      "sha256": "86ef9a4abfadf45be7cef099286340547bd8e3538504435c3fe5560cfac912d1",
+      "origin": "simulado pelo grupo (regras fictícias)"
+    }
+  ],
+  "totals": {
+    "documents": 25,
+    "sections": 110,
+    "words": 4913,
+    "categories": [
+      "spring-boot",
+      "docker",
+      "azure",
+      "sql-server",
+      "nextjs"
+    ]
+  }
+}

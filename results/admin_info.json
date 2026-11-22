@@ -1,0 +1,14 @@
+{
+    "chatModel":  "gpt-4o-mini-2024-07-18",
+    "temperature":  "0.0",
+    "seed":  "42",
+    "maxTokens":  "600",
+    "embeddingModel":  "text-embedding-3-small",
+    "topK":  "5",
+    "chunkSizeTokens":  "512",
+    "confidenceThreshold":  "0.7",
+    "javaVersion":  "21.0.12.1",
+    "springBootVersion":  "3.5.0",
+    "triagePromptSha256":  "0d35d8cc1329c461fc89c502db3a81851a496710cb548761ef27851fc56581e6",
+    "generationPromptSha256":  "e75b5208966e2fe6b64f5d2d6287a3382f32dc8e4b7d673775392a120e57ef1f"
+}

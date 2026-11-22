@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-17T23:16:45.356408+00:00",
+  "finished_utc": "2026-10-17T23:36:21.012937+00:00",
+  "run_id": "eval-100",
+  "base_url": "http://localhost:8080",
+  "judge_model": "gpt-4o-mini",
+  "judge_temperature": 0,
+  "judge_seed": 42,
+  "granularity": "document",
+  "tickets_file": "data/tickets-100.json",
+  "n_tickets": 100,
+  "judge_calls": 184,
+  "judge_tokens_prompt": 362022,
+  "judge_tokens_completion": 31136,
+  "python": "3.12.10",
+  "argv": [
+    "--out",
+    "results/eval-100",
+    "--granularity",
+    "document"
+  ],
+  "note": "Tokens do juiz entram à parte no custo (protocolo de custo do Documento de Escopo)."
+}
